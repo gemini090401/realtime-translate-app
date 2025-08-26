@@ -1,0 +1,10 @@
+// 最简框架：后续将逐步完善
+document.getElementById('start-video').onclick = function() {
+    alert('视频通话功能待开发');
+};
+
+document.getElementById('start-record').onclick = function() {
+    alert('录音与识别功能待开发');
+};
+
+// 后续可以在这里添加 WebRTC、语音识别、翻译等功能
