@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Realtime Translate Video Call App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>视频通话双向实时翻译 Demo</h1>
+    <div>
+        <button id="start-video">开始视频通话</button>
+        <button id="start-record">开始录音</button>
+    </div>
+    <div id="video-area">
+        <!-- 后续添加本地和远程视频窗口 -->
+    </div>
+    <div id="translation-area">
+        <p>识别文字：<span id="recognized-text"></span></p>
+        <p>翻译结果：<span id="translated-text"></span></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
